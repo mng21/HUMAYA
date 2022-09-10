@@ -32,8 +32,9 @@
    }
 
    .fizquierda {
-    background-image: url(imagenCentral.png);
+    background-image: url(formulario.png);
     width: 40%;
+    height: 450px;
     background-size: cover;
     background-repeat: no-repeat;
     
