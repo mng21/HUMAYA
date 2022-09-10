@@ -1,0 +1,72 @@
+/*ESTILOS DE PRESENTACIÓN*/
+#presentacion {
+    background-image: url(imagenCentral.png);
+    height:100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+
+  #productos {
+    background-color: #757470;
+    background-image: linear-gradient(81deg, #757470 0%, #10100c 100%);
+
+  }
+
+  .cajaPresentacion{
+    background-color: transparent;
+    border: none;
+  }
+  .colorTitulocard {
+   color: rgb(122, 84, 57);
+  }
+
+
+   .fondoCardrecetas {
+    background-color: bisque;
+   }
+
+   .btn-outline-warning {
+    border-color: rgb(122, 84, 57) !important;
+   }
+
+   .fizquierda {
+    background-image: url(formulario.png);
+    width: 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+   }
+   
+   .fderecha {
+   background-color: rgb(254, 254, 255);
+   width: 60%;
+   height: 450px;
+   }
+
+   .fondoForm  {
+    background-color: rgb(122, 84, 57);
+   }
+
+  /*MEDIAS QUERYS*/
+  @media only screen and (min-width: 280px) and (max-width: 767px) {
+   
+    
+    .ocultarDiv {
+        display: none !important;
+    }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .ocultarDiv1 {
+        display: none !important;
+    }
+
+    
+  }
+  @media only screen and (min-width: 1201px) {
+    .ocultarDiv1 {
+        display: none !important;
+    }
+  }
+  
